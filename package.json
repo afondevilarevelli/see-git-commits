@@ -1,0 +1,17 @@
+{
+  "name": "git-watch",
+  "version": "1.0.0",
+  "description": "List projects with its commits",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Antonio",
+  "license": "ISC",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  },
+  "bin": {
+    "last-commits": "./index.js"
+  }
+}
